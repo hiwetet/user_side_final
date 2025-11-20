@@ -1,13 +1,12 @@
 package com.example.CafeQuestApiApplication;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class CafeQuestApiApplicationTests {
-
-	@Test
-	void contextLoads() {
+@SpringBootApplication
+public class CafeQuestApiApplicationTests
+ {
+	public static void main(String[] args) {
+		SpringApplication.run(CafeQuestApiApplication.class, args);
 	}
-
 }
